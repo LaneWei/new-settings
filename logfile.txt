@@ -1,0 +1,49 @@
+Started on year 2018 in March
+upgraded system
+installed essentials: python, c build essentials, python libs, git etc.
+changed system shell to zsh, installed oh-my-zsh
+vim configuration, installed plugins
+vim plugins:	{Vundle,
+				YouCompleteMe,
+				nerdtree,
+				auto-pairs,
+				SimpylFold,
+				indentpython,
+				indnetline,
+				autopep8}
+installed sdkman(unzip, zip, curl needed) 
+force selfupdate after installation
+installed java8u152-zulu gradle4.6 ant1.10.1 maven3.5.3 groovy2.4.14 with sdkman
+
+in excution of command gradlew, gradle4.6 was fetched again and installed in ~/.gradle
+
+#2018#
+3.30:
+	apt update && apt upgrade
+
+3.31:
+	apt update && apt upgrade
+4.2:
+	clone https://github.com/junit-team/junit5-samples.git at ~/gradle_test
+4.11:
+	installed vnc4server
+	configured vnc4server
+	installed x-window-system-core
+	installed gdm
+	installed ubuntu-desktop
+	installed gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
+	modified ~/.vnc/xstartup
+	start vncserver :1 
+4.18:
+	modified .vimrc : +nnoremap <leader>d :YcmDiags<CR>
+					   +nmap <leader>/ I//<ESC>
+5.13:
+	finished HITSCLab3
+8.10:
+	installed keras (before)
+	installed python-nose
+	installed gfortran
+	installed libopenblas-dev liblapack-dev libatlas-base-dev
+	installed numpy scipy matplotlib scikit-learn scikit-image
+	installed tensorflow
+	set up keras environment
