@@ -1,7 +1,7 @@
 set nocompatible
 filetype off
 " Vundle Plugins managment
-set rtp+=/root/.vim/bundle/Vundle.vim
+set rtp+=/home/lane/.vim/bundle/Vundle.vim
 call vundle#begin()
 " vim plugin manager
 Plugin 'gmarik/Vundle.vim'
@@ -28,9 +28,14 @@ filetype plugin indent on
 
 " general settings for vim
 " color scheme settings
-set t_Co=256
-colorscheme molokai
-set background=dark
+" set t_Co=256
+" colorscheme molokai
+" set background=dark
+
+colorscheme space-vim-dark
+let g:space_vim_dark_background=234
+color space-vim-dark
+
 set autoindent
 set nu
 set shiftwidth=4
@@ -40,7 +45,6 @@ set autoread
 set magic
 set encoding=utf-8
 set fileformat=unix
-set cursorline
 
 " general mapping settings
 " change mapleader from \ to [space]
