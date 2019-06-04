@@ -7,8 +7,9 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 " a vim low-contrast color scheme
 " Plugin 'jnurmine/Zenburn' 	
+
 " a code-completion engine for vim
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 " tree explorer plugin 
 Plugin 'scrooloose/nerdtree'
 " auto-pairs
